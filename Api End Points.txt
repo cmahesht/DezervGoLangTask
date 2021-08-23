@@ -1,0 +1,55 @@
+1. Create User
+
+Author - Mahesh Chinvar
+Purpose :  /*  Create User: user create name, email, phone number.
+					a registered user should have unique password followed by password rules.
+			Should be a POST request
+			Use JSON request body
+			URL should be ‘/o/createUser
+	User Model :
+			'userName' validate:"required"` - user name
+			'email' validate:"required"` - user email
+			'mobile' validate:"required"` - user mobile number
+			'creationTimestamp omitempty` - user created date
+return: Must return success or error message
+
+RquestBody : 
+{
+  "userName": "cmahesht",
+  "email":"cmahesht@gmail.com",
+  "mobile": "9004322555",
+  "passsowrd":"wsASdd@123"
+}
+
+return: Must return success message or error meesage in JSON format :
+
+Sample Response : "DEZERV_USER_CREATED_SUCCESSFULLY"
+
+
+2. Update User
+
+Author - Mahesh Chinvar
+Purpose :  
+        Update User: 
+            update user name, email, phone number.
+            a registered user can update exisiting password followed by password rules.
+            a registered user can update exisiting password followed by password rules.
+        Should be a POST request
+        Use JSON request body
+        URL should be ‘/o/updateUserDetails
+	User Model :
+			'userName' validate:"required"` - user name
+			'email' validate:"required"` - user email
+			'mobile' validate:"required"` - user mobile number
+return: Must return success or error message
+
+RquestBody : 
+{
+    "userName": "cmahesht",
+    "email":"cmahesht@gmail.com",
+    "mobile": "9004322555",
+    "passsowrd":"ddbghMAH@123"
+}
+return: Must return success message or error meesage in JSON format :
+
+Sample Response : "DEZERV_USER_UPDATED_SUCCESSFULLY"

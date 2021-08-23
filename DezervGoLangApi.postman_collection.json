@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "DezervGoLangApi",
+		"_postman_id": "b04daee1-b890-679a-54ea-4ed2a2983da0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create User API",
+			"request": {
+				"url": "http://localhost:9997/o/createUser",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\":\"cmahesht\",\n\t\"email\": \"cmahesht@gmail.com\",\n\t\"mobile\":\"9004322555\",\n\t\"password\":\"Asc@6addaas\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Details API",
+			"request": {
+				"url": "http://localhost:9997/o/updateUserDetails",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\":\"cmahesht\",\n\t\"email\": \"cmahesht@gmail.com\",\n\t\"mobile\":\"8169179968\",\n\t\"password\":\"Ardc$56rtfty\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

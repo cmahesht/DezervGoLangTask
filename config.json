@@ -1,0 +1,6 @@
+{
+	"serverPort": "9997",
+	"DBNAME":"igr",
+	"UserCollectionName":"Users",
+	"MONGODSN": "mongodb://phpapp:phKV_s>K7.28@13.232.87.113:27017/"
+}

@@ -1,0 +1,31 @@
+Problem Statement: ​ Build a system and add a feature to reset user passwords.  
+
+Description:
+    The flow:​
+
+    Create a REST API that takes some form of user identifier (email/phone) and new password.
+    Ensure the password meets our requirements.
+    Update the user password in the database leveraging the API.
+    If successful let the user be notified.
+    If the password doesn’t meet our requirements, please let the user know what they can change.
+
+Password requirements:
+    Min: 1 lowercase and 1 uppercase alphabet
+    Min: 1 number
+    Min: 1 special character
+    8-16 character length
+    Shouldn’t be the same as username
+    Shouldn’t be the same as last password
+
+Technology: 
+    The system should consist of a database (MongoDB), backend (Golang) and a REST API. If you want, you can build a frontend. (ReactJS, Redux).
+
+Feel free to add Docker files or host it on GitHub. 
+
+Timelines: 
+    ​I would like to set the time limit to 3 days. But let us know if you need more time due to some other work.
+
+Submission: 
+    ​I would like to run the code locally. So anything from a Git repo to compressed files works for me. Be sure to include a README so I can get it up and running on my machine.
+
+Best of luck!
