@@ -1,6 +1,6 @@
 {
-	"serverPort": "9997",
-	"DBNAME":"igr",
+	"serverPort": "8888",
+	"DBNAME":"DezerveGoLangTask",
 	"UserCollectionName":"Users",
-	"MONGODSN": "mongodb://phpapp:phKV_s>K7.28@13.232.87.113:27017/"
+	"MONGODSN": "mongodb://127.0.0.1:27017"
 }

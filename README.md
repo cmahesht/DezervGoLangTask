@@ -8,10 +8,10 @@ Folder Structure
 
 - api
     - constants - contains globel constants and error codes
-    - model - User models
+    - model - User model
     - module
       - Login
-        - loginUser.go     - user data access layer
+        - loginUser.go    - user data access layer
         - loginRoute.go   - login api routes
         - loginService.go - login services
     - api.go  - registration of all modules with api groups
@@ -26,8 +26,9 @@ Folder Structure
 
 Steps to execute program
 
-1. 
-2. open config.json file and change "MONGODSN" Ip value to your system IP
-3. run command at app root directory   "docker-compose up -d"
+1. open code in vs code editor
+2. open config.json file and change "MONGODSN" value to your localhost mongodb string
+3. Go to terminal and execute "go run server.go" command
+4. Check Api End Points.txt file in repo for api end points and its request body.  -- \DezervGoLangTask\Api End Points.txt
+5. Once server gets started, go to postman and send request to api endpoints with its request body
 
-Check Api End Points.txt file in repo for api end points. \DezervGoLangTask\Api End Points.txt

@@ -11,7 +11,7 @@ import (
 )
 
 /*Route : Author - Mahesh Chinvar
-Purpose : All User api
+Purpose : All User api endpoints
 */
 
 /*Init : Author - Mahesh Chinvar
@@ -30,7 +30,7 @@ func Init(o *echo.Group, r *echo.Group) {
 
 }
 
-/*postComment :
+/* createUser
 Author - Mahesh Chinvar
 Purpose :  /*  Create User: user create name, email, phone number.
 					a registered user should have unique password followed by password rules.

@@ -10,14 +10,14 @@ import (
 	"github.com/labstack/echo/middleware"
 )
 
-/*main : Author - GaneshL
+/*main : Author - Mahesh Chinvar
 Purpose : main program execution started
 */
 func main() {
 	startServer()
 }
 
-/*startServer : Author - GaneshL
+/*startServer : Author - Mahesh Chinvar
 Purpose : Start go lang echo server
 */
 func startServer() {

@@ -10,7 +10,7 @@
 		{
 			"name": "Create User API",
 			"request": {
-				"url": "http://localhost:9997/o/createUser",
+				"url": "http://localhost:8888/o/createUser",
 				"method": "POST",
 				"header": [
 					{
@@ -30,7 +30,7 @@
 		{
 			"name": "Update User Details API",
 			"request": {
-				"url": "http://localhost:9997/o/updateUserDetails",
+				"url": "http://localhost:8888/o/updateUserDetails",
 				"method": "POST",
 				"header": [
 					{

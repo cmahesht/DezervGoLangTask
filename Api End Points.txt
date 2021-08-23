@@ -5,7 +5,7 @@ Purpose :  /*  Create User: user create name, email, phone number.
 					a registered user should have unique password followed by password rules.
 			Should be a POST request
 			Use JSON request body
-			URL should be ‘/o/createUser
+			URL should be "localhost:8888/o/createUser"
 	User Model :
 			'userName' validate:"required"` - user name
 			'email' validate:"required"` - user email
@@ -36,7 +36,7 @@ Purpose :
             a registered user can update exisiting password followed by password rules.
         Should be a POST request
         Use JSON request body
-        URL should be ‘/o/updateUserDetails
+        URL should be "localhost:8888/o/updateUserDetails"
 	User Model :
 			'userName' validate:"required"` - user name
 			'email' validate:"required"` - user email
